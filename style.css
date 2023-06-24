@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family= Alexandria:wght@300 & family= Poppins & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 222, 222);
+    font-family: 'Alexandria', sans-serif;
+    height: 100vh;
+
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    background: white;
+    border: 1 solid white;
+    box-shadow: 0 0 0 rgb(0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2{
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#form{
+    display: flex;
+    flex: 1;
+    padding-bottom: 15px;
+}
+
+#input{
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #5372f0;
+    padding: 15px 1rem;
+    transition: 0.5s;
+    outline: 2px solid #5372f0;
+}
+
+#input:focus{
+    outline-offset: 2px;
+}
+
+#button{
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #5372f0;
+    padding: 15px 1rem;
+    transition: 0.5s;
+    outline: 2px solid #5372f0;
+    background-color: #5372f0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#button:focus{
+    outline-offset: 2px;
+}
+
+#link{
+    border: 2px solid #5372f0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    display: none;
+}
+
+#link:hover {
+    background-color: #5372f0;
+}
+
+#link a{
+    text-decoration: none;
+    color: #5372f0;
+}
+
+#link a:hover{
+    text-decoration: none;
+    color: white;
+}
+
